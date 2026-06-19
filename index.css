@@ -1,0 +1,30 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display : flex;
+    justify-content: space-around;
+    align-items: center;
+    height : 80px;
+    background-color: rgb(241, 240, 240);
+}
+
+nav ul {
+    display : flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin : 0 25px;
+}
+
+.left {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
