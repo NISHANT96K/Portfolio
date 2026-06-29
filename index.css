@@ -67,6 +67,7 @@ main hr {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    font-size: 1rem; /* 2rem here was making everything huge */
 }
 
 .leftsection h1 {
@@ -79,14 +80,13 @@ main hr {
     color: #555;
 }
 
-.leftsection button {
-    width: 150px;
-    padding: 10px;
-    background-color: #4f46e5;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-size: 1rem;
+.btn {
+    padding : 8px;
+    background-color: #555;
+    color : wheat;
+    border : 2px solid wheat;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor: pointer;
 }
 
@@ -148,28 +148,62 @@ footer {
     width: 80vw;
     height: 2px;
     margin: 56px 0;
-    display : flex;
+    display: flex;
 }
 
 
 .secondSection .vertical {
-    height : 93px;
-    width : 1px;
+    height: 93px;
+    width: 1px;
     background-color: black;
-    margin : 0 100px;
+    margin: 0 100px;
 }
 
 
 .image-top {
-    width:50px;
-    position : relative;
-    top : -50px;
-    left : -24.5px;
+    width: 50px;
+    position: relative;
+    top: -50px;
+    left: -24.5px;
 }
-.vertical-title {
 
+.vertical-title{
+    position: relative;
+    top: 75px;
+    width: 150px;
 }
 
 .vertical-desc {
+    position: relative;
+    top: 99px;
+    color: olive;
+    width : 150px;
+    font-size : 12px;
+}
 
+footer {
+    background-color: #010f49;
+    color : wheat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+
+.footer ul {
+    list-style: none;
+}
+
+.footer > div {
+    width : 223px;
+}
+
+footer .footer-right {
+    text-align: center;
+    color : gray;
+    padding :12px
 }
